@@ -1,5 +1,5 @@
 import { app, auth } from "@/firebaseConf";
-import { API_KEY, API_URL } from '@env';
+import { API_KEY, API_URL } from "@env";
 import { NavigationProp, useNavigation } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { onAuthStateChanged } from "firebase/auth";
@@ -48,7 +48,8 @@ function FinestraCerca() {
   }
   function BuscaPeli() {
     if (pelicula.length > 2) {
-      const url = API_URL + "=" + encodeURIComponent(pelicula) + "&api_key=" + API_KEY;
+      const url =
+        API_URL + "=" + encodeURIComponent(pelicula) + "&api_key=" + API_KEY;
       fetch(url)
         .then((r) => r.json())
         .then((result) => {
