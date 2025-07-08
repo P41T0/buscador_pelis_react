@@ -21,7 +21,7 @@
     "@react-navigation/stack": "^7.4.2",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.5.1",
-    "expo": "~53.0.17",
+    "expo": "~53.0.18",
     "expo-blur": "~14.1.5",
     "expo-constants": "~17.1.5",
     "expo-font": "~13.3.1",
