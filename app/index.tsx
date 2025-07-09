@@ -65,7 +65,7 @@ function MyTabs() {
             ) : (
               <MyIcon color={color} size={size} />
             );
-          } else if (route.name === "IniciaSessio") {
+          } else if (route.name === "IniciaSession") {
             return focused ? (
               <MyIcon color={color} size={size} />
             ) : (
