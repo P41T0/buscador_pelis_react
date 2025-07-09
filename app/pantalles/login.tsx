@@ -65,7 +65,7 @@ function Signup({
   return (
     <View style={styles.outer}>
       <View style={styles.inner}>
-        <Text style={styles.header}>Registra't</Text>
+        <Text style={styles.header}>Registra&apos;t</Text>
 
         {error && <Text style={styles.error}>{error}</Text>}
 
@@ -249,7 +249,7 @@ function ResetPassword({
   );
 }
 
-export default function IniciaSessio({
+export default function IniciaSession({
   navigation,
 }: {
   navigation: NavigationProp<any>;

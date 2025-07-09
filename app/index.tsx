@@ -1,6 +1,6 @@
 import Buscador from "@/app/pantalles/buscador";
 import Home from "@/app/pantalles/home";
-import IniciaSessio from "@/app/pantalles/login";
+import IniciaSession from "@/app/pantalles/login";
 import MyFilms from "@/app/pantalles/myFilms";
 import { auth } from "@/firebaseConf";
 import Ionicons from "@react-native-vector-icons/ionicons";
@@ -96,8 +96,8 @@ function MyTabs() {
         }}
       ></Tab.Screen>
       <Tab.Screen
-        name="IniciaSessio"
-        component={IniciaSessio}
+        name="IniciaSession"
+        component={IniciaSession}
         options={{ title: "Inicia sessió", headerRight: () => <UserEmail /> }}
       ></Tab.Screen>
     </Tab.Navigator>
