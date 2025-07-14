@@ -12,8 +12,8 @@ importers:
         specifier: ^14.1.0
         version: 14.1.0(expo-font@13.3.2(expo@53.0.19(@babel/core@7.28.0)(@expo/metro-runtime@5.0.4(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0)))(react-native-webview@13.15.0(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react@19.1.0))(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
       '@react-native-vector-icons/ionicons':
-        specifier: ^12.0.1
-        version: 12.0.1(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
+        specifier: ^12.1.0
+        version: 12.1.0(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
       '@react-navigation/bottom-tabs':
         specifier: ^7.4.2
         version: 7.4.2(@react-navigation/native@7.1.14(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native-safe-area-context@5.5.1(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native-screens@4.11.1(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
@@ -52,7 +52,7 @@ importers:
         version: 7.1.7(expo@53.0.19(@babel/core@7.28.0)(@expo/metro-runtime@5.0.4(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0)))(react-native-webview@13.15.0(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
       expo-router:
         specifier: ~5.1.3
-        version: 5.1.3(9692fce51bcb1d15c9c8f26c990b31f2)
+        version: 5.1.3(kgwptvkdqhpymlij2av3gjnyna)
       expo-splash-screen:
         specifier: ~0.30.10
         version: 0.30.10(expo@53.0.19(@babel/core@7.28.0)(@expo/metro-runtime@5.0.4(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0)))(react-native-webview@13.15.0(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))
@@ -1153,20 +1153,20 @@ packages:
   '@react-native-community/cli-tools@17.0.0':
     resolution: {integrity: sha512-mVXH7U/uXd7yizqm2iE+W4SSVc4FGYYEafAu29HihA+FHttonqdg35zVAnIX2FKbyla+TotR1ACNSgo7KFDq+w==}
 
-  '@react-native-vector-icons/common@12.0.1':
-    resolution: {integrity: sha512-GYcjOzLhJkvtDdYJqRjkKwv/5F74EVsAg5RiZa7hwfsUhop2ECmekUfohdER1nYBDjRKQvRqKuGMHYc8VTFCwA==}
+  '@react-native-vector-icons/common@12.1.0':
+    resolution: {integrity: sha512-H2OUxGYEStmLFKOI/zjiq8XCmZOTR9vqWt9tKv7pqpW9QTPEFR93y6dnc1PIaEjdqb1yNh9AUGTee4aG1ivCTA==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
-      '@react-native-vector-icons/get-image': ^12.0.1
+      '@react-native-vector-icons/get-image': ^12.1.0
       react: '*'
       react-native: '*'
     peerDependenciesMeta:
       '@react-native-vector-icons/get-image':
         optional: true
 
-  '@react-native-vector-icons/ionicons@12.0.1':
-    resolution: {integrity: sha512-bCl87vaNgnIDGd8GAruPopAfVq2ObL1ghhZ53h1HHwNcTGUuXlIT6MSek6DtZpc/h/pCkCcXV2MmUJOtnb3VXg==}
+  '@react-native-vector-icons/ionicons@12.1.0':
+    resolution: {integrity: sha512-zvYBUNyz6NzT1rslGlSS86hfZjBfwiFoKaX6bXHgtef3z9LjbjdaeIl7wOxYntTq9s+q/jYHCJxsFSFkAFiorQ==}
     engines: {node: '>= 18.0.0'}
     peerDependencies:
       react: '*'
@@ -5887,7 +5887,7 @@ snapshots:
       prompts: 2.4.2
       semver: 7.7.2
 
-  '@react-native-vector-icons/common@12.0.1(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)':
+  '@react-native-vector-icons/common@12.1.0(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@react-native-community/cli-tools': 17.0.0
       picocolors: 1.1.1
@@ -5895,9 +5895,9 @@ snapshots:
       react: 19.1.0
       react-native: 0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0)
 
-  '@react-native-vector-icons/ionicons@12.0.1(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)':
+  '@react-native-vector-icons/ionicons@12.1.0(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)':
     dependencies:
-      '@react-native-vector-icons/common': 12.0.1(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
+      '@react-native-vector-icons/common': 12.1.0(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
       react: 19.1.0
       react-native: 0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0)
     transitivePeerDependencies:
@@ -7409,7 +7409,7 @@ snapshots:
     dependencies:
       invariant: 2.2.4
 
-  expo-router@5.1.3(9692fce51bcb1d15c9c8f26c990b31f2):
+  expo-router@5.1.3(kgwptvkdqhpymlij2av3gjnyna):
     dependencies:
       '@expo/metro-runtime': 5.0.4(react-native@0.80.1(@babel/core@7.28.0)(@types/react@19.1.8)(react@19.1.0))
       '@expo/server': 0.6.3
