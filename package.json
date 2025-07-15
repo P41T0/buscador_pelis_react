@@ -8,10 +8,10 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "lint": "expo lint",
-    "lint:fix": "expo lint --fix",
-    "format": "prettier --write ."
+    "lint": "expo lint && prettier --check .",
+    "lint-fix": "expo lint --fix && prettier --write ."
   },
+  "packageManager": "pnpm@10.13.1",
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
     "@react-native-vector-icons/ionicons": "^12.1.0",
