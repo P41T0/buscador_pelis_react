@@ -4,3 +4,5 @@ package-lock.json
 .vscode
 .expo
 .gitignore
+pnpm-lock.yaml
+pnpm-workspace.yaml
