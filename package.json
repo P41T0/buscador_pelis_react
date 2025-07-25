@@ -1,5 +1,5 @@
 {
-  "name": "provareact2",
+  "name": "buscador_pelis_react",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -17,6 +17,7 @@
     "@react-native-vector-icons/ionicons": "^12.1.0",
     "@react-navigation/bottom-tabs": "^7.4.2",
     "@react-navigation/elements": "^2.5.2",
+    "@react-navigation/native": "^7.1.14",
     "@react-navigation/stack": "^7.4.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.3",
@@ -45,15 +46,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
-    "@react-navigation/native": "^7.1.14",
-    "@react-navigation/native-stack": "^7.3.21",
     "@types/react": "~19.1.8",
     "@types/react-native-vector-icons": "^6.4.18",
     "eslint": "^9.31.0",
     "eslint-config-expo": "~9.2.0",
     "react-native-dotenv": "^3.4.11",
-    "react-native-safe-area-context": "5.5.2",
-    "react-native-screens": "~4.11.1",
     "typescript": "~5.8.3"
   },
   "private": true
