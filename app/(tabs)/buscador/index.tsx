@@ -41,7 +41,6 @@ export default function FinestraCerca() {
     if (pelicula.length > 2) {
       const url =
         API_URL + "=" + encodeURIComponent(pelicula) + "&api_key=" + API_KEY;
-      console.log(url);
       fetch(url)
         .then((r) => r.json())
         .then((result) => {
