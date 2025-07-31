@@ -12,6 +12,7 @@ export default {
       supportsTablet: true,
     },
     android: {
+      package: "com.anonymous.provaReact2",
       adaptiveIcon: {
         foregroundImage: "./assets/images/adaptive-icon.png",
         backgroundColor: "#ffffff",
