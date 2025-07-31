@@ -52,7 +52,7 @@ export default function RootLayout() {
         }}
       />
       <Tabs.Screen
-        name="iniciaSession"
+        name="login"
         options={{
           title: "Inicia sessió",
         }}

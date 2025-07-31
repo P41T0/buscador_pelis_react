@@ -1,7 +1,6 @@
 import { auth } from "@/firebaseConf";
 import React from "react";
 import { Text } from "react-native";
-
 export default function UserEmail() {
   if (auth.currentUser != null) {
     return (
